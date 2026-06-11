@@ -1,8 +1,13 @@
 import streamlit as st
 import joblib
 import pandas as pd
-model = joblib.load('random_forest_model.pkl')
-features = joblib.load('features.pkl')
+from pathlib import Path
+path = Path(__file__).parent
+#file = path + 'random_forest_model.pkl'
+model_path = path / 'random_forest_model.pkl'
+features_path = path / 'features.pkl'
+model = joblib.load(model_path)
+features = joblib.load(features_path)
 st.title("Titanic Survival Predictor")
 st.text("Machine learning application that predicts Titanic passenger survival probability based on passenger characteristics and travel information.")
 Age = st.number_input(label = "Enter age", min_value=0)
@@ -98,6 +103,8 @@ if st.button('Predict'):
     st.write("Confidence: ", str(int(round(prob[0][1],2)*100)), "%")      
     #print(y_pred)
     #print(model.predict_proba(df_features))
+
+
 
       
 
