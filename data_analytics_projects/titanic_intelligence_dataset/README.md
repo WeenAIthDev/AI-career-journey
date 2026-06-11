@@ -8,6 +8,12 @@ The final solution uses a Random Forest Classifier and allows users to enter pas
 
 ---
 
+## Live Project 
+
+https://titanic-survival-app-weenaithdev.streamlit.app/
+
+---
+
 ## Dataset
 
 **Source:** Titanic Dataset (Kaggle)
@@ -185,20 +191,12 @@ http://localhost:8502
 ## Screenshots
 
 ### Application Home Screen
-
-*Add screenshot of the Streamlit application interface here.*
-
+![Home Screen demo](videos\Prediction_input_output.gif)
 ### Prediction Example
-
-*Add screenshot showing passenger inputs and prediction output.*
-
-### Survival Probability Output
-
-*Add screenshot displaying prediction probability and final result.*
+![Prediction demo](videos\Titanic_Survival_Prediction.gif)
 
 ### Model Evaluation
-
-*Add ROC Curve and Feature Importance visualizations here.*
+![Random Forest Model metrics demo](videos\ROC-AUC-OF-RANDOM-FOREST.gif)
 
 ---
 
