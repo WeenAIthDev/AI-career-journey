@@ -191,12 +191,12 @@ http://localhost:8502
 ## Screenshots
 
 ### Application Home Screen
-![Home Screen demo](videos\Prediction_input_output.gif)
+![Home Screen demo](videos/Prediction_input_output.gif)
 ### Prediction Example
-![Prediction demo](videos\Titanic_Survival_Prediction.gif)
+![Prediction demo](videos/Titanic_Survival_Prediction.gif)
 
 ### Model Evaluation
-![Random Forest Model metrics demo](videos\ROC-AUC-OF-RANDOM-FOREST.gif)
+![Random Forest Model metrics demo](videos/ROC-AUC-OF-RANDOM-FOREST.gif)
 
 ---
 
