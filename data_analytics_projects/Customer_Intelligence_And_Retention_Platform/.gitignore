@@ -1,0 +1,33 @@
+# Virtual Environment
+ml_env/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment Variables
+.env
+
+# IDE
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Model Files (optional)
+# *.pkl
+
+# Streamlit
+.streamlit/secrets.toml
+
+# MLflow
+mlruns/
+
+# Logs
+*.log
